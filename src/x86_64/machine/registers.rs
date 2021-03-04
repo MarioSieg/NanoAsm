@@ -338,9 +338,4 @@ mod tests {
     fn register_size() {
         assert_eq!(Register::XMM0.size(), 16);
     }
-
-    #[test]
-    fn register_mnemonic() {
-        assert_eq!(Register::XMM0.mnemonic(), "xmm0");
-    }
 }

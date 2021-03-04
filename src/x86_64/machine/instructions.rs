@@ -1411,8 +1411,3 @@ pub enum InstructionOperand {
 pub const INSTRUCTION_COUNT: usize = 3595;
 
 pub struct InstructionVariation<'a>(pub Instruction, pub &'a [InstructionOperand]);
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-}
